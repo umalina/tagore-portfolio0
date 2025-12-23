@@ -5,10 +5,10 @@ function openGallery(type) {
   content.innerHTML = "";
 
   if (type === "photo") {
-    const photosImages = [
-      "p1.jpeg",
-      "p2.jpeg",
-      "p3.jpeg"
+    const photos = [
+      "images/photo/p1.jpeg",
+      "images/photo/p2.jpeg",
+      "images/photo/p3.jpeg"
     ];
 
     photos.forEach(path => {
